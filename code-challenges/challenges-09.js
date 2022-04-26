@@ -145,6 +145,12 @@ let keyBoardArray = [5, 150, 35, 120, 75, 50, 100]
 
 const mostExpensive = (budget, mouseArray, keyBoardArray) => {
     // write your code here
+    mouseArray.forEach(element =>{
+        
+    })
+    keyBoardArray.forEach(element =>{
+        
+    })
 }
 // -------------------------------------------------------------------------------------------------------
 

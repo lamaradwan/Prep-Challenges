@@ -137,6 +137,22 @@ const getInfo = (arr) => {
 
 const getStudents = (arr) => {
   // write your code here
+    let output =[];
+    for(let i=0; i<arr.length; i++){
+        for(let c=0;c<courses.length; c++){
+            for(let s=0; s<courses[c].Students.length;s++){
+            if(arr[i] == courses[c].Students[s]){
+                output.push(
+                    {
+                        Student: arr[i],
+                        course: courses[c].course
+                    }
+                )
+            }        
+        }
+    }
+}
+    return output;
 };
 //  ------------------------------------------------------------------------------------------------------
 
