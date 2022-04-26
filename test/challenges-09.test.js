@@ -111,7 +111,7 @@ describe("Challenge09", () => {
   });
 });
 
-describe.skip("Challenge09", () => {
+describe("Challenge09", () => {
   test.skip("Most-Expensive", () => {
     expect(
       mostExpensive(
