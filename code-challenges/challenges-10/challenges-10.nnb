@@ -47,20 +47,7 @@
             "source": [
                 ""
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.error",
-                            "value": {
-                                "name": "ReferenceError",
-                                "message": "bhbh is not defined",
-                                "stack": "    at <Cell 7> [1, 5]\n    at <Cell 7> [4, 46]"
-                            }
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
