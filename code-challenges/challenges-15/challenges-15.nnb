@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "function equalizeArray(arr) {\n    // Write your code here\n    let spare = [];\n    let deletion = 0;\n    for(let i=0;i<arr.length;i++){\n        let count=0;\n        for(let j=0;j<arr.length;j++){\n            if(arr[i]==arr[j]){\n                count++;\n            }\n        }\n            if(count == 1 || count == 2){\n                deletion++;\n        }   \n    }\n    return deletion;\n}"
+                "function equalizeArray(arr) {\n    // Write your code here\n    let spare = [];\n    let deletion = 0;\n    for(let i=0;i<arr.length;i++){\n        let count=0;\n        for(let j=0;j<arr.length;j++){\n            if(arr[i]==arr[j]){\n                count++;\n            }\n        }\n        spare.push(count);\n        }\n    console.log(spare)\n    let redundant= Math.max.apply(Math,spare)\n    let c1 = 0;\n    for(let k=0;k<spare.length; k++){\n        \n        if(spare[k] != redundant){\n            c1++;\n        }\n    }\n    return c1;\n    }"
             ],
             "outputs": []
         },
